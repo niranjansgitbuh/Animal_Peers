@@ -52,9 +52,9 @@ export function DisasterReliefMode() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
           </div>
-          <h2 className="text-2xl font-bold">Disaster Relief Request Submitted</h2>
+          <h2 className="text-2xl font-bold">Disease Relief Request Submitted</h2>
           <p className="text-muted-foreground">
-            Your disaster relief request has been submitted. Our emergency response team has been notified and will
+            Your disease relief request has been submitted. Our emergency response team has been notified and will
             coordinate rescue efforts as soon as possible.
           </p>
           <p className="font-medium text-green-600 dark:text-green-400">
@@ -73,9 +73,9 @@ export function DisasterReliefMode() {
           <div className="flex items-start gap-3">
             <AlertTriangle className="mt-1 h-5 w-5 text-amber-600 dark:text-amber-400" />
             <div>
-              <CardTitle className="text-amber-800 dark:text-amber-300">Disaster Relief Mode</CardTitle>
+              <CardTitle className="text-amber-800 dark:text-amber-300">Disease Relief Mode</CardTitle>
               <CardDescription className="text-amber-700 dark:text-amber-400">
-                For reporting multiple animals affected by natural disasters
+                For reporting multiple animals affected by natural diseases
               </CardDescription>
             </div>
           </div>
@@ -85,9 +85,9 @@ export function DisasterReliefMode() {
             <div className="flex items-start gap-4">
               <Info className="mt-0.5 h-4 w-4 text-amber-600 dark:text-amber-400" />
               <div className="text-sm">
-                <p className="font-medium text-amber-800 dark:text-amber-300">About Disaster Relief Mode</p>
+                <p className="font-medium text-amber-800 dark:text-amber-300">About Disease Relief Mode</p>
                 <p className="text-amber-700 dark:text-amber-400">
-                  This special reporting mode is designed for natural disasters like floods, earthquakes, or fires where
+                  This special reporting mode is designed for natural diseases like Rabies, Upper Respiratory Infections, or Heartworm Disease where
                   multiple animals may be affected. Our team will coordinate with local authorities and rescue
                   organizations to mobilize resources quickly.
                 </p>
@@ -105,12 +105,12 @@ export function DisasterReliefMode() {
       <form onSubmit={handleSubmit}>
         <Card>
           <CardHeader>
-            <CardTitle>Report Animals Affected by Disaster</CardTitle>
-            <CardDescription>Provide details about the disaster and affected animals</CardDescription>
+            <CardTitle>Report Animals Affected by Disease</CardTitle>
+            <CardDescription>Provide details about the disease and affected animals</CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
             <div className="space-y-2">
-              <Label>Type of Disaster</Label>
+              <Label>Type of Disease</Label>
               <RadioGroup
                 value={disasterType}
                 onValueChange={setDisasterType}
