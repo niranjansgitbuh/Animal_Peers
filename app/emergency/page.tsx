@@ -39,7 +39,7 @@ export default function EmergencyPage() {
             <div className="rounded-full bg-amber-100 p-3">
               <AlertTriangle className="h-6 w-6 text-amber-600" />
             </div>
-            <h2 className="text-2xl font-bold">Disaster Relief Mode</h2>
+            <h2 className="text-2xl font-bold">Disease Relief Mode</h2>
             <AnimatedImage
               src="/placeholder.svg?height=100&width=200&text=Disaster+Relief"
               alt="Animal disaster relief"
